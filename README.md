@@ -4,7 +4,10 @@ Quarterly PSREF refresh tool for the Spaces Metaverse Product Showroom.
 
 Any team member can clone this repo and run the quarterly refresh when Kate Bennett distributes a new TopSeller spreadsheet. The scraper pushes enriched product data into the `spaces-showroom` Cloudflare Worker (D1 + R2).
 
-Companion repo: [`spaces-showroom`](../spaces-showroom) (Astro + CF Workers).
+Companion repo: [`danielctc/spaces-showroom`](https://github.com/danielctc/spaces-showroom) (Astro + CF Workers).
+
+**For every quarterly refresh, follow [`QUARTERLY-REFRESH.md`](./QUARTERLY-REFRESH.md).** That runbook is the source of truth.
+
 Plan: `~/.claude/plans/bubbly-rolling-wilkinson.md`
 
 ## Quick start

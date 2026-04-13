@@ -1,0 +1,21 @@
+{
+  "_comment": "Column name → canonical field. Lenovo drift these per quarter, so update here rather than in code. See parse_xlsx.py.",
+  "All Part Numbers": {
+    "Part No": "part_number",
+    "Description": "name",
+    "Series": "series",
+    "Family": "family",
+    "Category": "category",
+    "ERP Price (UK)": "erp_price_uk",
+    "List Price (UK)": "list_price_uk",
+    "ERP Price (IE)": "erp_price_ie",
+    "List Price (IE)": "list_price_ie",
+    "Trade In (UK)": "trade_in_uk",
+    "Trade In (IE)": "trade_in_ie",
+    "LEAP": "leap",
+    "Warranty": "warranty",
+    "Weight": "weight",
+    "EAN": "ean",
+    "PSREF URL": "psref_url"
+  }
+}

@@ -1,0 +1,30 @@
+[project]
+name = "lenovo-showroom-scraper"
+version = "0.1.0"
+description = "Quarterly PSREF scraper for the Spaces Metaverse product showroom."
+requires-python = ">=3.10"
+dependencies = [
+  "scrapling[all]>=0.2",
+  "openpyxl>=3.1",
+  "httpx>=0.27",
+  "pillow>=10.4",
+  "python-dotenv>=1.0",
+  "tenacity>=9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "ruff>=0.7",
+]
+
+[project.scripts]
+showroom-refresh = "src.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
